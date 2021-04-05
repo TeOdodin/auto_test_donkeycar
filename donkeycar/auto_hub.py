@@ -1,7 +1,7 @@
 from auto_training import auto_train
 from auto_test import auto_test
 
-model_types = ["custom"]
+model_types = ["linear", "categorical", "inferred"]
 datasets = ["data"]
 
 auto_train(model_types, datasets)
