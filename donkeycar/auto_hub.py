@@ -2,7 +2,7 @@ from auto_training import auto_train
 from auto_test import auto_test
 
 model_types = ["linear", "categorical", "inferred"]
-datasets = ["data"]
+datasets = ["data_generated_track", "data_warehouse", "data_warehouse_modified", "data_waveshare" ]
 
 auto_train(model_types, datasets)
 # for model_type in model_types:
